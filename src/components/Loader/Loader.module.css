@@ -1,0 +1,12 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.loader {
+  width: 80px;
+  height: 80px;
+}

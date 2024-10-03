@@ -1,0 +1,47 @@
+.movieReviews {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.movieReviews li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.movieReviews li:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.movieReviews h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.movieReviews p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+  .movieReviews li {
+    padding: 20px;
+  }
+
+  .movieReviews h3 {
+    font-size: 20px;
+  }
+
+  .movieReviews p {
+    font-size: 17px;
+  }
+}
